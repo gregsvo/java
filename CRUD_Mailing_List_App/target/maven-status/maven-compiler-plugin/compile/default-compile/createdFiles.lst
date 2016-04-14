@@ -1,0 +1,5 @@
+com/fortim/ddcode/controller/Controller.class
+com/fortim/ddcode/app/App.class
+Email_DAO/EmailDAO.class
+com/fortim/ddcode/ui/ConsoleIO.class
+Email_DTO/Email.class
