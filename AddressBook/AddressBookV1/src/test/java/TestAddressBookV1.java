@@ -1,0 +1,123 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import Controller.Controller;
+import DAO.AddressDAO;
+import DTO.Address;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author apprentice
+ */
+public class TestAddressBookV1 {
+    
+    public TestAddressBookV1() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
+
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
+    
+    @Test
+    public void testAddAddress() {
+        AddressDAO dao = new AddressDAO();
+        Integer expected = dao.getNextId() + 1;
+        Address aAddress = new Address();
+        aAddress.setId(1834);
+        aAddress.setFirstName("first");
+        aAddress.setLastName("test11554");
+        aAddress.setStreet("street");
+        aAddress.setState("state");
+        aAddress.setCity("city");
+        aAddress.setZip("111834");
+        
+        Address bAddress = dao.addAddress(aAddress);
+        Integer result = bAddress.getId();
+        
+        Assert.assertEquals(expected, result);
+        
+        
+    }
+        @Test
+    public void testSearch() {
+        Controller ctrl = new Controller();
+        Address aAddress = new Address();
+        aAddress.setId(1834);
+        aAddress.setFirstName("first");
+        aAddress.setLastName("test11554");
+        aAddress.setStreet("street");
+        aAddress.setState("state");
+        aAddress.setCity("city");
+        aAddress.setZip("111834");
+        
+        AddressDAO dao = new AddressDAO();
+        Address bAddress = dao.addAddress(aAddress);
+        String expected = bAddress.getFirstName();
+        Address target = ctrl.searchAddress("test11554");
+        String result = target.getFirstName();
+        
+        Assert.assertEquals(expected, result);
+        
+    }
+    
+    @Test
+    public void testDelete() {
+        AddressDAO dao = new AddressDAO();
+        List<Address> allAds = dao.list();
+        Integer id = 0;
+        for (Address a : allAds) {
+            if (a.getLastName().equals("test11554")) {
+                id = a.getId();
+                break;
+            }
+        }
+        dao.deleteAddress(id);
+        boolean expected = true;
+        boolean result = true;
+        List<Address>allAdsUpdated = dao.list();
+        for (Address b : allAdsUpdated) {
+            if (b.getId().equals(id)) {
+                result = false;
+            }
+        }
+            
+        Assert.assertEquals(expected, result);
+        
+    }
+    
+    @Test
+    public void testList() {
+        AddressDAO dao = new AddressDAO();
+        List<Address> blank = new ArrayList<>();
+        List<Address> allAddresses = dao.list();
+        
+        Assert.assertFalse(blank.equals(allAddresses));
+        
+        
+        
+    }
+    
+
+    
+    
+}

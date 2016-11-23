@@ -1,0 +1,4 @@
+"OrderNumber","CustomerName","State","TaxRate","ProductType","Area","CostPerSquareFoot","LaborCostPerSquareFoot","MaterialCost","LaborCost","Tax","Total"
+"1","Brian","AL","4.0","Carpet","360.0","2.25","2.1","810.0","756.0","62.64","1628.64"
+"2","Qavi","KS","6.15","Tile","489.0","3.5","4.16","1711.5","2034.24","230.37","3976.11"
+"3","Bevan","CO","2.9","Laminate","875.0","1.75","2.1","1531.25","1837.5","97.7","3466.45"

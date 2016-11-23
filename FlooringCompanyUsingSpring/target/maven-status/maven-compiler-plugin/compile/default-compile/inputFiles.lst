@@ -1,0 +1,12 @@
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/App/App.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/UI/ConsoleIO.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DAOs/ConfigDao.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DAOs/OrderDao.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DTOs/Order.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/Controllers/Controller.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DAOs/ProductDao.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DAOs/TaxesDao.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DAOs/FileIO.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/Controllers/AdminController.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DTOs/Taxes.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/FlooringMasterSpring/src/main/java/com/mycompany/flooringmaster/DTOs/Product.java

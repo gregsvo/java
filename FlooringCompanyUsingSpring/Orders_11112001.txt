@@ -1,0 +1,4 @@
+"OrderNumber","CustomerName","State","TaxRate","ProductType","Area","CostPerSquareFoot","LaborCostPerSquareFoot","MaterialCost","LaborCost","Tax","Total"
+"1","Jamie","ZZ","4.0","Wood","2.0","5.15","4.75","10.3","9.5","0.8","20.6"
+"2","Clare","MS","7.0","Laminate","456.0","1.75","2.1","798.0","957.6","122.9","1878.5"
+"3","Roger","PA","6.0","Wood","777.0","5.15","4.75","4001.55","3690.75","461.54","8153.84"

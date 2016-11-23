@@ -1,0 +1,4 @@
+"OrderNumber","CustomerName","State","TaxRate","ProductType","Area","CostPerSquareFoot","LaborCostPerSquareFoot","MaterialCost","LaborCost","Tax","Total"
+"4","Bob","SD","4.0","Carpet","1500.0","2.25","2.1","3375.0","3150.0","261.0","6786.0"
+"2","Kyle","OH","5.75","Tile","152.0","3.5","4.16","532.0","632.34","66.95","1231.27"
+"3","Chris","HI","4.0","Carpet","2000.0","2.25","2.1","4500.0","4200.0","348.0","9048.0"

@@ -1,0 +1,9 @@
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dvdApp/App.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/ui/ConsoleIO.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/controller/DVD_Library_Controller.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dto/DVD.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dao/DvdLibraryDao.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dto/Comments.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dao/Dvd_DAO_Impl.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dao/Comments_DAO_Impl.java
+/home/apprentice/_repos/GregAndKyle/gregkyleweek6/DvD Spring/DVD_Spring/src/main/java/com/mycompany/dao/DaoInterfaceComments.java

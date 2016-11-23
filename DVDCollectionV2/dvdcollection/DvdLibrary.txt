@@ -1,0 +1,11 @@
+1::Big Fish::1999::Martin Scorsese::Paramount::PG
+2::The Shawshank Redemption::1992::Steven Spielberg::David Productions RULEZ!::R
+3::The Godfather::1981::Quentin Tarantino::Fox Searchlight::R
+4::Wedding Crashers::2003::Alfred Hitchcock::Guild Productions::R
+5::12 Angry Men::1951::Joe Smith::Paramount::R
+6::Joe Dirt::1997::Christopher Nolan::Geoff Roadhouse Picture Shows::R
+7::The Lord of the Rings: The Return of the King::2003::Peter Jackson::Fox::PG
+8::The Good, the Bad and the Ugly::1948::JOE SMITH::This is cool productions::R
+10::Inception::2007::Chrstopher Nolan::Fincher Studios::PG
+12::Wolf On Wall Street::2012::Martin Scorsese::Paramount::R
+14::Toy Story::1999::John Smith::Pixar::G
